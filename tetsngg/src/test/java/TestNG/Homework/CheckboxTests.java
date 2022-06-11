@@ -45,7 +45,7 @@ public class CheckboxTests {
         reportsFolder = "src/main/resources/CheckboxFailedTests";
     }
 
-    @Test(invocationCount = 0, timeOut = 15)
+    @Test(dependsOnMethods = "test2",alwaysRun = true)
     public void test1(){
         open("");
         SelenideElement secondBox = $$("input").get(1);
@@ -53,7 +53,7 @@ public class CheckboxTests {
         secondBox.shouldBe(Condition.checked);
     }
 
-    @Test(priority = 1)
+    @Test
     public void test2(){
         SelenideElement firstBox =   $$("input").first();
         firstBox.setSelected(false);
