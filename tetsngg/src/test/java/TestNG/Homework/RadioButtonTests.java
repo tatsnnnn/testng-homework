@@ -34,7 +34,8 @@ public class RadioButtonTests {
         ChromeOptions parametres = new ChromeOptions();
         parametres.addArguments("start-maximized");
     }
-    @Test
+    @Test(groups = {"FrontEnd"})
+    @RetryCountIfFailed(10)
     public void test1(){
         open("/radio-button");
         $(By.id("yesRadio")).click();

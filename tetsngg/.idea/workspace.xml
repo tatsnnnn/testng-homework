@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2f6889c0-73e9-4e99-a589-1d1729990c59" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
@@ -14,7 +15,10 @@
       <change afterPath="$PROJECT_DIR$/src/main/resources/CheckboxFailedTests" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/TestNG/Homework/CheckboxTests.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/TestNG/Homework/ConfigTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNG/Homework/IRetryAnalyzer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/TestNG/Homework/RadioButtonTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNG/Homework/RetryCountIfFailed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNG/Homework/test001.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/testngg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +68,7 @@
       <recent name="TestNG.Homework" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RadioButtonTests">
+  <component name="RunManager" selected="TestNG.test001 (1)">
     <configuration name="CheckboxTests.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="tetsngg" />
       <extension name="coverage">
@@ -118,8 +122,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test001 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="tetsngg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestNG.Homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestNG.Homework" />
+      <option name="MAIN_CLASS_NAME" value="TestNG.Homework.test001" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test001" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="tetsngg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.test001" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.test001 (1)" />
+        <item itemvalue="TestNG.test001" />
         <item itemvalue="TestNG.RadioButtonTests" />
         <item itemvalue="TestNG.RadioButtonTests.radioButtonTest" />
         <item itemvalue="TestNG.CheckboxTests.test1" />

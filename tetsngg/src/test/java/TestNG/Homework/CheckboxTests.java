@@ -45,7 +45,8 @@ public class CheckboxTests {
         reportsFolder = "src/main/resources/CheckboxFailedTests";
     }
 
-    @Test(dependsOnMethods = "test2",alwaysRun = true)
+    @Test(dependsOnMethods = "test2",alwaysRun = true,groups = {"FrontEnd"})
+    @RetryCountIfFailed(10)
     public void test1(){
         open("");
         SelenideElement secondBox = $$("input").get(1);
@@ -53,7 +54,7 @@ public class CheckboxTests {
         secondBox.shouldBe(Condition.checked);
     }
 
-    @Test
+    @Test(groups = {"BackEnd"})
     public void test2(){
         SelenideElement firstBox =   $$("input").first();
         firstBox.setSelected(false);

@@ -13,3 +13,15 @@
         </classes>
     </test>
 </suite>
+<groups>
+<define name="End">
+    <include name="FrontEnd"/>
+    <include name="BackEnd" />
+</define>
+<run>
+    <include name="End"/>
+</run>
+</groups>
+<listeners>
+<listener class-name="TestNG.Homework.RetryCountIfFailed"/>
+</listeners>
